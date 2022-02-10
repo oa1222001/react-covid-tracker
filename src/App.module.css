@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(200, 200, 200);
+  height: 100vh;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.image {
+  width: 20%;
+  margin-top: 50px;
+}
+@media screen and (max-width: 770px) {
+  .container {
+    margin: 0 10% 20px 10%;
+  }
+
+  .image {
+    width: 100%;
+  }
+}
